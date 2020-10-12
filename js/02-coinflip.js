@@ -2,7 +2,7 @@ var coinFlip = Math.round(Math.random());
 var choice = window.prompt("Heads or Tails");
 var flipResult;
 
-if (coinFlip == 0 ){
+if (coinFlip >= 5 ){
     flipResult = "Heads";
 } else {
     flipResult = "Tails";
